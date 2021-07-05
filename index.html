@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body onload="getCurrentUser()">
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col-2" style="background-color: burlywood;">
+                <img src="https://images.unsplash.com/photo-1476370648495-3533f64427a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="..." class="img-thumbnail rounded-circle mt-2"> 
+                <br>
+                <p id="info1"></p>
+                <p id="info2"></p>
+                <p id="info3"></p>
+                <p id="info4"></p>
+                <p id="info5"></p>
+                <div class="alert alert-dark w-75" role="alert" id="message"></div>
+            </div>
+            <div class="col-10 bg-warning">
+                <div class="row">
+                    <div class="col-11"></div>
+                    <div class="col-1">
+                        <button class="btn btn-outline-danger" onclick="onLogout()">Logout</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">You can post what ever you want </div>
+                    <div class="col-4"><button class="btn btn-outline-light" onclick="post()" id="post">Post</button></div>
+                </div>
+                <div id="inputHead">
+
+                </div>
+                <div >
+                    <ul id="ul">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+</body>
+
+<script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+</html>
+
+
+
+

@@ -1,0 +1,72 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body{
+    font-family: 'Popins',sans-serif;
+    background: rgb(255, 255, 255);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+
+}
+
+.main{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    
+    background-color: white;
+    /* position: absolute;
+    
+    top: 27%;
+    left: 37%;  */
+    /* box-shadow: -10px -10px 20px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    /* padding: 0 !important; */
+    margin: 150px 0px;
+}
+/* h2{
+    color: rgb(55, 55, 255);
+    text-align: center;
+} */
+.form-control, .mt-3{
+    margin: 0px 20px;
+    width: 110%;
+    
+}
+.btn{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-left: 10px; */
+    margin-top: 15px;
+    width: 110%;
+}
+.btn-link a{
+    color: grey ;
+
+}
+.mt-3{
+    margin-bottom: 10px;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+ 
